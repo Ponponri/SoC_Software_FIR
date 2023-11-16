@@ -1670,7 +1670,7 @@ void main()
  (*(volatile uint32_t*) (0xf0000000L + 0x3010L)) = (*(volatile uint32_t*) (0xf0000000L + 0x3000L)) = 0x00000000;
 
 
- (*(volatile uint32_t*)0x2600000c) = 0xAB400000;
+ (*(volatile uint32_t*)0x2600000c) = 0xAB600000;
 
 
  (*(volatile uint32_t*) ((0xf0000000L + 0x3030L) + 8)) = 0x00000000;
@@ -1693,5 +1693,5 @@ void main()
 
 
 
- (*(volatile uint32_t*)0x2600000c) = 0xAB510000;
+ (*(volatile uint32_t*)0x2600000c) = 0xAB610000;
 }

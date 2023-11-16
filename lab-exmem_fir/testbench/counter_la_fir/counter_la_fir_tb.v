@@ -164,20 +164,9 @@ module counter_la_fir_tb;
 	initial begin
 		$display("LA Test 1 waiting");
 
-		wait(checkbits == 16'hAB40);
+		wait(checkbits == 16'hAB60);
 		$display("LA Test 1 started");
-		//wait(checkbits == 16'hAB41);
-
-		//wait(checkbits == 16'd40);
-		//$display("Call function matmul() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x%x", checkbits);
-		//wait(checkbits == 16'd893);
-		//$display("Call function matmul() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x%x", checkbits);
-		//wait(checkbits == 16'd2541);
-		//$display("Call function matmul() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x%x", checkbits);
-		//wait(checkbits == 16'd2669);
-		//$display("Call function matmul() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x%x", checkbits);		
-
-		wait(checkbits == 16'hAB51);
+		wait(checkbits == 16'hAB61);
 		$display("LA Test 2 passed");
 		#10000;
 		$finish;

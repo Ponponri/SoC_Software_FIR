@@ -434,7 +434,7 @@ Disassembly of section .text:
 10000610:	00f72023          	sw	a5,0(a4)
 10000614:	260007b7          	lui	a5,0x26000
 10000618:	00c78793          	addi	a5,a5,12 # 2600000c <_esram_rom+0x15fff804>
-1000061c:	ab400737          	lui	a4,0xab400
+1000061c:	ab600737          	lui	a4,0xab600
 10000620:	00e7a023          	sw	a4,0(a5)
 10000624:	f00037b7          	lui	a5,0xf0003
 10000628:	03878793          	addi	a5,a5,56 # f0003038 <_esram+0xb8002f04>
@@ -442,7 +442,7 @@ Disassembly of section .text:
 10000630:	f00037b7          	lui	a5,0xf0003
 10000634:	00878713          	addi	a4,a5,8 # f0003008 <_esram+0xb8002ed4>
 10000638:	00000793          	li	a5,0
-1000063c:	00f72023          	sw	a5,0(a4) # ab400000 <_esram+0x733ffecc>
+1000063c:	00f72023          	sw	a5,0(a4) # ab600000 <_esram+0x735ffecc>
 10000640:	f0003737          	lui	a4,0xf0003
 10000644:	01870713          	addi	a4,a4,24 # f0003018 <_esram+0xb8002ee4>
 10000648:	00f72023          	sw	a5,0(a4)
@@ -527,7 +527,7 @@ Disassembly of section .text:
 10000784:	00e7a023          	sw	a4,0(a5)
 10000788:	260007b7          	lui	a5,0x26000
 1000078c:	00c78793          	addi	a5,a5,12 # 2600000c <_esram_rom+0x15fff804>
-10000790:	ab510737          	lui	a4,0xab510
+10000790:	ab610737          	lui	a4,0xab610
 10000794:	00e7a023          	sw	a4,0(a5)
 10000798:	00000013          	nop
 1000079c:	01c12083          	lw	ra,28(sp)
