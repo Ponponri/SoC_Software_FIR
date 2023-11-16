@@ -1,4 +1,4 @@
-# SOC Design LAB4-1
+# SOC Design LAB4-1 Group 11
 
 ## Overview
 - This project can extend the capability of caravel soc with FIR operation.
@@ -13,7 +13,6 @@
 ```
 cd ./lab-exmem_fir/testbench/counter_la_fir
 ```
-![](image/tree.png) 
 
 4. Run the following command, and the result would display on the terminal.
 ```
