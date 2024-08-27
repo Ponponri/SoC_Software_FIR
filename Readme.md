@@ -1,10 +1,8 @@
-# SOC Design LAB4-1 Group 11
-
 ## Overview
 - This project can extend the capability of caravel soc with FIR operation.
 - We add software FIR operation.
 
-## Run code 
+## Execute
 1. You need to build caravel soc environment (toolchain) on Linux.
 
 2. Clone the repo and cd to testbench dir.
